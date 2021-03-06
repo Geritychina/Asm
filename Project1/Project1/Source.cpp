@@ -12,7 +12,7 @@ int testasm(int a, int b) {
 	return res;
 }
 
-//Периметър на тригъгълник
+//Perimeter triangle
 int ptriangle(int a, int b, int c) {
 	_asm {
 		mov eax, a
@@ -21,7 +21,7 @@ int ptriangle(int a, int b, int c) {
 	}
 }
 
-//Периметър на равнобедрен триъгълник
+//Perimeter triangle 2 
 int ptriangle1(int a, int b) {
 	_asm {
 		mov eax, a
@@ -30,7 +30,7 @@ int ptriangle1(int a, int b) {
 	}
 }
 
-//Периметър на квадрат
+//Perimeter square
 int sqr(int a) {
 	_asm {
 		mov eax, a
@@ -38,7 +38,7 @@ int sqr(int a) {
 		mul ebx
 	}
 }
-//Периметър на успоредник
+//Perimeter trapezoid
 int perimetyrChetiriygylnik(int a, int b) {
 	_asm {
 		mov eax, a
