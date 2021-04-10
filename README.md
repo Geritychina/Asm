@@ -1,3 +1,3 @@
-# Asm
+# Assembly 🚀
 MASM Assemblies practice
 
